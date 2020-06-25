@@ -83,7 +83,6 @@ public class BST<T> {
                 root = (root.left == null) ? root.right : root.left;
             }
         }
-
         return root;
     }
 
@@ -91,7 +90,6 @@ public class BST<T> {
         while (current.left != null) {
             current = current.left;
         }
-
         return current;
     }
 
